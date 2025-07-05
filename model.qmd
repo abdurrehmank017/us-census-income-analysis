@@ -1,0 +1,31 @@
+---
+title: "Model"
+---
+
+## Statistical Model
+
+This analysis uses a multiple linear regression model to predict median household income based on demographic and economic factors at the county level.
+
+### Model Specification
+
+The data generating mechanism is:
+
+$$\text{Income}_i = \beta_0 + \beta_1 \text{Education}_i + \beta_2 \text{Rent}_i + \beta_3 \text{Commute}_i + \epsilon_i$$
+
+Where:
+- $\text{Income}_i$ is the median household income in county $i$
+- $\text{Education}_i$ is the percentage of adults with bachelor's degrees
+- $\text{Rent}_i$ is the median gross rent
+- $\text{Commute}_i$ is the mean commute time in minutes
+- $\epsilon_i$ is the error term
+
+### Parameter Estimates
+
+| Variable | Coefficient | Standard Error | p-value |
+|----------|-------------|----------------|---------|
+| Intercept | $\beta_0$ | [TBD] | [TBD] |
+| Education | $\beta_1$ | [TBD] | [TBD] |
+| Rent | $\beta_2$ | [TBD] | [TBD] |
+| Commute | $\beta_3$ | [TBD] | [TBD] |
+
+*Note: Parameter estimates will be updated once the model is fitted to the data.*

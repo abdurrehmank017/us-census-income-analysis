@@ -1,0 +1,9 @@
+---
+title: "Sources"
+---
+
+## Data Sources
+
+The primary data for this analysis comes from the US Census Bureau's American Community Survey (ACS) 5-Year estimates for 2022. The ACS is conducted continuously and provides detailed demographic, social, economic, and housing information for communities across the United States.
+
+Data was accessed through the Census Bureau's API using the tidycensus R package, which provides a convenient interface to Census data. The analysis focuses on county-level data for all 50 states and includes variables such as median household income, educational attainment, housing costs, and commute times. Counties with missing data for key variables were excluded from the analysis, resulting in a final dataset of approximately 3,000 counties.

@@ -1,0 +1,9 @@
+---
+title: us-census-income-analysis
+---
+
+I am Abdur Rehman Khan, a data science student passionate about using public data to understand social and economic patterns. You can find my work on [GitHub](https://github.com/abdurrehmank017) and contact me at abdurrehman.uvas@gmail.com.
+
+This project analyzes US Census data to understand what factors predict higher household income across American counties. The full code and data are available in the [GitHub repository](https://github.com/abdurrehmank017/us-census-income-analysis).
+
+This project was created as part of [Kane's Data Science Bootcamp](https://bootcamp.davidkane.info/).
